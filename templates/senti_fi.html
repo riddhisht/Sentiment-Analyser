@@ -1,0 +1,71 @@
+ <!DOCTYPE html>
+<html>
+<head>
+    <title>
+        HappyLlama
+        </title>
+        <link rel="shortcut icon" href="http://127.0.0.1:5000/static/tlogo.png" type="image/x-icon">
+    <link rel="stylesheet" href="http://127.0.0.1:5000/static/senti_fi.css">
+    <h1 style="color: rgb(240, 231, 231); align-items: left; overflow: hidden; ">
+    
+        <img src="http://127.0.0.1:5000/static/dlogo.png" alt="logo" style ='width: 350px; height:130px; border-radius: 20%;'>
+        
+       
+    </h1>
+
+</head>
+<body>
+
+    <ul>
+
+        <li><a href="http://127.0.0.1:5000/">Home</a></li>
+        <li><a href="http://127.0.0.1:5000/static/about.html">About us</a></li>
+        <li><a href="#">Chatbot</a></li>
+    </ul>
+    <div class = "slider">
+        <figure>
+            <div class = "slide">
+                <img src = "http://127.0.0.1:5000/static/home.jpg" alt = "">
+
+            </div>
+            <div class = "slide">
+                <img src = "http://127.0.0.1:5000/static/produuct.jpg" alt = "">
+                
+            </div>
+            <div class = "slide">
+                <img src = "http://127.0.0.1:5000/static/social.jpg" alt = "">
+                
+            </div>
+            <div class = "slide">
+                <img src = "http://127.0.0.1:5000/static/books.jpg" alt = "">
+                
+            </div>
+           
+        </figure>
+    </div>
+   
+    <h2 style="text-align: center">
+    Enter a text in the form of a sentence or a paragraph to classify it as positive or negative. <br>
+    It can be a movie review, a product review, etc.
+    </h2>
+    <div class="whole">
+    
+         <!-- Main Input For Receiving Query to our ML -->
+    <form action="http://127.0.0.1:5000/predict"method="post" class="form1">
+        <input type="text" name="comment" placeholder="enter a comment" required="required" />
+        <button type="submit">Predict</button>
+    </form>
+    </div>
+    <h2 style="text-align: center">
+    For multiple texts, enter the file of your product reviews or comments, and find out the total <br> percentage of positive and negative comments. (Enter the file in .csv format only.)
+    </h2>
+    <div class="whole">
+         <!-- Main Input For Receiving Query to our ML -->
+    <form action="http://127.0.0.1:5000/predict1" method="post" enctype="multipart/form-data" class ="form2">
+        <input type="file" name="data" required="required" class="inputfile">
+        <button type="submit">Predict</button>
+    </form>
+    </div>
+    
+</body>
+</html>

@@ -1,0 +1,29 @@
+ <!DOCTYPE html>
+<html>
+<head>
+    <title>sentilyser</title>
+    <link rel="stylesheet" href="http://127.0.0.1:5000/static/senti.css">
+</head>
+<body>
+    <ul>
+        <li><a href="http://127.0.0.1:5000/">Home</a></li>
+        <li><a href="#">chatbot</a></li>
+        <li><a href="#">about us</a></li>
+    </ul>
+    <div class="whole">
+        <h1>Let's Judge You</h1>
+    
+         <!-- Main Input For Receiving Query to our ML -->
+    <form action="http://127.0.0.1:5000/predict"method="post" class="form1">
+        <input type="text" name="comment" placeholder="enter a comment" required="required" />
+        <button type="submit">Predict</button>
+    </form>
+    <h1 class="or">OR</h1>
+    <form action="http://127.0.0.1:5000/predict1" method="post" enctype="multipart/form-data" class ="form2">
+        <input type="file" name="data" required="required" class="inputfile">
+        <button type="submit">Predict</button>
+    </form>
+    </div>
+    
+</body>
+</html>

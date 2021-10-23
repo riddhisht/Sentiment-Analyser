@@ -1,0 +1,174 @@
+.whole{
+    color: black;
+    max-width: 400px;
+    margin-left: 450px;
+    padding-left: 50px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-top: 140px;
+    background-color: rgb(116, 73, 73);
+    border-radius: 5px;
+}
+body{
+ background-color: rgb(2, 2, 2);   
+}
+.form1 button{
+    padding: 10px;
+    padding-right: 30px;
+    padding-left: 30px;
+    border-radius : 5px;
+    color:white;
+    background-color : black;
+    margin-left: 15px;
+
+}
+
+.form1 input{
+    padding: 10px;
+    padding-right: 40px;
+}
+.or{
+    position: relative;
+    left: 120px;
+}
+.form2 button{
+    padding: 10px;
+    padding-right: 30px;
+    padding-left: 30px;
+    border-radius : 5px;
+    color:white;
+    background-color : rgb(197, 179, 179);
+    margin-left: -23px;
+
+}
+ul {
+    list-style-type: none;
+    position: absolute;
+    left: 0;
+    right: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+li {
+    float: left;
+  }
+  
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+li a:hover {
+    background-color: rgb(117, 100, 100);
+  }
+
+@keyframes umami{
+  0%{
+     left: 0%;
+  }
+  10%{
+    left: 0%;
+  }
+  12%{
+    left: -100%;
+  }
+  22%{
+    left: -100%;
+  }
+  24%{
+    left: -200%;
+  }
+  34%{
+    left: -200%;
+  }
+  36%{
+    left: -300%;
+  }
+  46%{  
+    left: -300%;
+  }
+  48%{
+    left: -400%;
+  }
+  58%{
+    left: -400%;
+  }
+  60%{
+    left: -300%;
+  }
+  70%{
+    left: -300%;
+  }
+  72%{
+    left: -200%;
+  }
+  82%{
+    left: -200%;
+  }
+  84%{
+    left: -100%;
+  }
+  94%{
+    left: -100%;
+  }
+  96%{
+    left: 0%;
+  }
+
+
+}
+
+img {
+    width: 250px;
+    height: 220px;
+    border-radius: 40%;
+   }
+   
+   .grid-container {
+    display: grid;
+    grid-row-gap: 10px;
+    justify-content: space-evenly;
+    grid-template-columns: auto auto auto;
+  
+    padding: 5px;
+  }
+   
+   .grid-item {
+     background-color: rgb(2, 2, 2);
+     border: 40px solid rgb(2, 2, 2);
+     padding: 0px;
+     font-size: 15px;
+     text-align: center;
+   }
+
+   .fa {
+    padding: 15px;
+    font-size: 50pt;
+    width: 30px;
+    align-items: left;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 50%;
+  }
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+
+.fa-instagram {
+    background:linear-gradient(to bottom, #ff3399 0%, #ffff00 100%);;
+    color: white;
+  }
+
+.fa-linkedin {
+  background: #5491ad;
+  color: white;
+}
+

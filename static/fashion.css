@@ -1,0 +1,89 @@
+.header{
+    background-color: black;
+    padding: 0px;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    left: 0px;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+}
+.whole{
+    position: absolute;
+    top:250px;
+    display: inline-block;
+}
+.file{
+    margin-left: 250px;
+    display: inline-block;
+}
+.inputfile {
+	width: 0.1px;
+	height: 0.1px;
+	opacity: 0;
+	overflow: hidden;
+	position: absolute;
+	z-index: -1;
+}
+.inputfile + label {
+    font-size: 1.25em;
+    font-weight: 700;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: black;
+    display: inline-block;
+}
+
+
+.inputfile + label {
+	cursor: pointer; /* "hand" cursor */
+}
+.btn{
+    padding: 10px;
+    width: 100px;
+    outline: none;
+    margin-left: 600px;
+    display: inline;
+    position: relative;
+    bottom:0px;
+
+}
+.footer{
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    left: 0px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    height: 50px;
+}
+.image img{
+    width: 300px;
+    height: 300px;
+    margin-left: 530px;
+    
+}
+.image p{
+    margin-left: 650px;
+    font-size: 30px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.note p{
+    margin-left: 650px;
+    position: absolute;
+    top:330px;
+
+}
+.classify{
+    position: absolute;
+    top:150px;
+    left: 450px;
+    right: 200px;
+    font-size: 25px;
+}
+@media screen and (max-width: 420px){
+	
+}

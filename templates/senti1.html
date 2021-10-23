@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>sentilyser</title>
+
+</head>
+<body>
+
+        <h1>Let's Judge You</h1>
+    
+         <!-- Main Input For Receiving Query to our ML -->
+    <form action="http://127.0.0.1:5000/predict" method="post" enctype="multipart/form-data">
+        <input type="file" name="data" required="required" />
+        <button type="submit" class="btn btn-primary btn-block btn-large">Predict</button>
+    </form>
+    
+    <br>
+    <br>
+    {{ prediction_text }}
+    
+</body>
+</html>
