@@ -1,7 +1,7 @@
 # Sentiment Analysis Web Application
 
 ## Overview
-This project is a Flask-based web application that performs sentiment analysis on sentences using Natural Language Processing (NLP) techniques. It classifies text into positive or negative sentiments with high accuracy.
+This project is a Flask-based web application that performs sentiment analysis on sentences using Natural Language Processing (NLP) techniques. It classifies text into positive or negative sentiments.
 
 ## Features
 - Real-time sentiment analysis of user input
@@ -15,7 +15,6 @@ This project is a Flask-based web application that performs sentiment analysis o
 - TensorFlow
 - scikit-learn
 - Selenium
-- Natural Language Processing libraries
 
 ## Project Structure
 The project consists of the following main components:
@@ -26,10 +25,9 @@ The project consists of the following main components:
 
 ## Model Performance
 - Accuracy: 91% in classifying positive and negative sentiments
-- Optimized for balance between accuracy and response time
 
 ## Future Improvements
-- Expand the model to classify more nuanced sentiments
+- Expand the model to classify more nuanced sentiments and neutral sentiments
 - Implement user feedback loop for continuous model improvement
 - Add support for multiple languages
 
