@@ -32,6 +32,6 @@ The project consists of the following main components:
 - Add support for multiple languages
 
 ## Contributing
-Riddhish Thakare
-Jainum Sanghavi
-Manav Punjabi
+- Riddhish Thakare
+- Jainum Sanghavi
+- Manav Punjabi
